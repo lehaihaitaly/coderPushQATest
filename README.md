@@ -25,4 +25,4 @@ In order to execute the testcase , open the command line and navigate to the pro
 robot test.robot
 
 
-![Screenshot from 2022-07-11 10-56-05](https://user-images.githubusercontent.com/25046502/178185732-6989b9b6-34d0-4ae9-b9c9-2f608444680c.png)
+![Screenshot from 2022-07-11 11-14-24](https://user-images.githubusercontent.com/25046502/178187395-7aaa0b5f-c0bb-475c-a986-3ec12b9cdc35.png)
