@@ -13,7 +13,7 @@ Sign up successfully
     Then Wait Until Page Contains	     Your Feed
     Then Wait Until Page Contains	    Global Feed
 
-Sign in with wrong email
+Sign in with wrong email or wrong password
     Given I open chrome on https://react-redux.realworld.io/
     When Click Element    ${signIn_txt}
     And I sign in with username: abc@gmail.com and password: abc
