@@ -23,5 +23,5 @@ Now, wxPython version 4.1.0 is successfully installed.
 
 In order to execute the testcase , open the command line and navigate to the proper folder and type:
 robot test.robot
+![Screenshot from 2022-07-11 11-16-44](https://user-images.githubusercontent.com/25046502/178187630-e5e1272f-5a05-4de5-9899-ffebfd7804af.png)
 
-![Screenshot from 2022-07-11 11-14-24](https://user-images.githubusercontent.com/25046502/178187490-ebe42615-0c41-4ce0-b0bd-17eb16669fb0.png)
