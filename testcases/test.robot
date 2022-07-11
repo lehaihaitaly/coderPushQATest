@@ -4,6 +4,8 @@ Library    String
 Resource   ../variables/globalVariables.robot
 Resource   ../variables/signUp.robot
 Resource   ../keywords/signUp.robot
+Test Teardown   Close All Browsers
+
 *** Test Cases ***
 
 Sign up successfully
