@@ -1,25 +1,31 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    String
-Resource   ../variables/globalVariables.robot
-Resource   ../variables/signUp.robot
-Resource   ../keywords/signUp.robot
+Resource   ../keywords/shareHoldersKeywords.robot
 Test Teardown   Close All Browsers
 
 *** Test Cases ***
 
 Sign up successfully
-    Given I open chrome on https://react-redux.realworld.io/
-    When Click Element    ${register_txt}
-    And I sign up with username and email and password
-    Then Wait Until Page Contains	     Your Feed
-    Then Wait Until Page Contains	    Global Feed
+    Given I open https://sleek.com/sg/ on chrome
+    When I click on section Pricing
+    And Wait Until Page Contains    Corporate secretary
+    Then I click on section corporate-secretary
+    And Wait Until Page Contains   Effortless company secretary services in Singapore
+    Then I choose 1 Shareholder and the price is S$240/year
+    Then I choose 2 Shareholders and the price is S$360/year
+    Then I choose 3 - 5 Shareholders and the price is S$420/year
 
-Sign in with wrong email or wrong password
-    Given I open chrome on https://react-redux.realworld.io/
-    When Click Element    ${signIn_txt}
-    And I sign in with username: abc@gmail.com and password: abc
-    Then Wait Until Page Contains     email or password is invalid
+
+
+
+
+
+
+
+
+
+
 
 
 
